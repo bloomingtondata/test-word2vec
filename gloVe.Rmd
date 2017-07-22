@@ -1,0 +1,11 @@
+```{r}
+imitate <- 'https://nlp.stanford.edu/projects/glove/'
+message(imitate)
+```
+
+
+```{r}
+install.packages(curl, dep=T, ask=F)
+require(curl)
+curl_fetch_disk('http://nlp.stanford.edu/data/glove.42B.300d.zip')
+```
