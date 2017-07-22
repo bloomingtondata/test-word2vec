@@ -1,0 +1,37 @@
+
+
+#require(superheat)
+#require(rword2vec) #and others
+
+
+###### Purpose
+
+We want to test Google's famous `word2vec` result $\mathrm{king} - \mathrm{man} + \mathrm{woman} = \mathrm{queen}$. This particular result fits our semantic intuition, but how many other equations come as close?
+
+
+
+###### Tolerance
+
+Chris wants to make
+
+```{r}
+close <- .1
+message(close, "should be as close as king - man + woman.")
+close -> good.enough
+
+close.but.not.close.enough <- .5
+messages("how to index ", close.but.not.close.enough, "? maybe a slider in a sh.")
+
+
+too.far <- 5
+message(too.far, " should be so far out that ridiculous non-results would be inclued if you (fairly) included the spheres of distance ", too.far)
+```
+
+
+## Data sources
+
+- subtitle files
+- examples others provide
+- Rob: **SAT analogy books!**
+- Chris: any equations with more subtraction terms?
+- Chris: bring a dictionary
