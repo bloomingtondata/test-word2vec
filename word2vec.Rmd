@@ -47,3 +47,18 @@ message(too.far, " should be so far out that ridiculous non-results would be inc
 
 
 ## graphs
+
+
+##### desiderata
+
+try to test "shades" of meaning. Rob's example: «it’s pouring» versus «it’s raining» --- pouring is indeed more idiomatic and familiar (Rob’s example: tell someone you’ll be late for a business meeting because it’s pouring? no..)
+
+
+
+
+
+# Analogies
+
+Rob pointed out that analogies like `calf : cow :: piglet : pig`, etc. But what is really the structure of some of these?
+
+Take `tree : forest :: tire : car`. This analogy might not be accepted as clearly right. Trees are part of a forest—as tires are part of a car. But tires are seen to be a heterogeneous part of a car, whereas a big enough collection of trees is seen to equal a forest. Then again --- trees _are_ a heterogeneous part of a forest, as forests have a canopy — underbrush — frogs — berries — dead pine needles — moss — and so on.
