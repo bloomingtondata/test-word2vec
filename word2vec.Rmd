@@ -35,3 +35,15 @@ message(too.far, " should be so far out that ridiculous non-results would be inc
 - Rob: **SAT analogy books!**
 - Chris: any equations with more subtraction terms?
 - Chris: bring a dictionary
+
+
+
+## tests
+
+- Brian: `king - dress + = queen`
+- Brian: `king + free movement + ace|killer - monarch = queen`
+-
+
+
+
+## graphs
