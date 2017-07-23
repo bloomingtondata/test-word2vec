@@ -40,9 +40,26 @@ message(too.far, " should be so far out that ridiculous non-results would be inc
 
 ## tests
 
-- Brian: `king - dress + = queen`
+- Brian: `king - dress + ___ = queen`
 - Brian: `king + free movement + ace|killer - monarch = queen`
--
+- `sun - light + dark = moon`
+- `sun - day + night = moon`
+- `pauper + money = person`
+- `rich - wealth = poor`, `rich - money = poor`
+- `lemon - yellow + green = lime`
+- `seeds + soil + sun = garden` (or `plants`)
+- `marker - ___ + wax = crayon` (ink? dye?)
+- `Halloween - October + December = Saturnalia`  (←we should be putting in some guesstimate of how valid we think our own tests are. ―Chris)
+- 
+
+
+
+#### synonymy
+
+- `ink ≈ dye`
+- 
+
+grab a (paper) thesaurus and use this to argue about the shades of meaning among synonyms
 
 
 
@@ -62,3 +79,33 @@ try to test "shades" of meaning. Rob's example: «it’s pouring» versus «it�
 Rob pointed out that analogies like `calf : cow :: piglet : pig`, etc. But what is really the structure of some of these?
 
 Take `tree : forest :: tire : car`. This analogy might not be accepted as clearly right. Trees are part of a forest—as tires are part of a car. But tires are seen to be a heterogeneous part of a car, whereas a big enough collection of trees is seen to equal a forest. Then again --- trees _are_ a heterogeneous part of a forest, as forests have a canopy — underbrush — frogs — berries — dead pine needles — moss — and so on.
+
+
+
+
+
+
+
+
+## Ben Schmidt’s google news vectors
+
+Ben Schmidt posted a nice [`word2vec` walkthrough](https://rstudio-pubs-static.s3.amazonaws.com/225114_28f6a67eebce4641901e57201006964c.html).
+
+
+```{r ben.schmidt}
+install.packages('devtools', ask=F, dep=T)
+devtools::install_github('someone/wordVectors')
+message("get Ben’s weightings")
+require(curl)
+ben.schmidts.vectors.weighted.from.google.news <- 'http://benschmidt.org/word2vec_workshop/short_google_news.bin'
+curl_fetch_disk(ben.schmidts.vectors.weighted.from.google.news, 'ben.schmidts.vectors.short.google.news.bin')
+require(wordVectors)
+ben.schmidts.vectors.short.google.news.bin
+ben.schmidts.short.google.news.model <- read.vectors('ben.schmidts.vectors.short.google.news.bin')
+```
+
+## calibration
+
+```{r calibration}
+
+```
