@@ -64,6 +64,10 @@ grab a (paper) thesaurus and use this to argue about the shades of meaning among
 
 
 ## graphs
+```{r plots}
+install.packages('tsne',ask=F,dep=T)
+require(tsne)
+```
 
 
 ##### desiderata
@@ -108,4 +112,16 @@ ben.schmidts.short.google.news.model <- read.vectors('ben.schmidts.vectors.short
 
 ```{r calibration}
 
+```
+
+
+
+
+
+
+
+#### more corpora
+
+```{r train.weights.more.corpora}
+install.packages('janeaustenr',ask=F,dep=T)
 ```
